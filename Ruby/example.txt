@@ -1,0 +1,37 @@
+Ihr wollt einen Easy Mode für
+
+? Ein neues Kostüm für euren Hauptcharakter? Oder das Spiel sogar schwerer machen? Dann seid ihr hier an der richtigen Stelle. Wir sammeln in diesem Artikel die aktuell sinnvollsten und spaßigsten Mods für Sekiro und erklären, was ihr bei der Installation beachten müsst.
+
+Um die meisten Mods sauber und sicher zu installieren, wird die
+
+empfohlen. Sie erspart euch das händische Extrahieren der Mod-Dateien und das Patchen der .exe-Datei. Manche Mods funktionieren sogar gar nicht erst ohne sie. Eine Liste dazu findet ihr auf der Mod-Seite, ebenso wie eine Installationsanleitung.
+Easy Mode: Mods die Sekiro einfacher machen
+
+From-Software-Spiele gelten seit jeher als extrem anspruchsvoll. Während man bei Dark Souls noch Seelen grinden konnte oder sich oft mit einer Ausweichrolle retten, geht das bei Sekiro nicht mehr. Hier hilft nur das Bewegungsmuster der Gegner kennen und perfekt getimte Paraden und Konter auszuführen.
+
+Das ist nicht jedermanns Sache. Gegen den Frust gibt es deshalb erste Mods, die das Spielerlebnis einfacher machen. Zum Schwierigkeitsgrad von Sekiro gibt es übrigens auch eine aktuelle Plus-Kolumne, die erklärt,
+
+.
+Easy Mode, Framerate-Limit aufheben & Auflösung ändern
+
+Die Mod
+
+fügt dem Spiel einige Optionen hinzu, über die ihr die Schwierigkeit nach Wunsch einstellen könnt. Ihr müsst also nicht alles auf leicht stellen, sondern könnt abwägen, welche Spielelemente euch besonders viel Ärger bereiten.
+
+Zusätzlich bringt die Mod einige weitere nützliche Funktionen mit. Ihr könnt das Framerate-Limit aufheben, spezielle Auflösungen wie 21:9 hinzufügen, das FOV ändern und mehr. Eine Liste mit allen Inhalten, sowie einer genau bebilderten Installationsanleitung findet ihr auf der
+
+.
+
+Wirklich einfacher wird es aber erst durch die folgenden integrierten Spiel-Features, die sich auf Wunsch aktivieren oder deaktivieren lassen:
+
+    Die Drachenfäule breitet sich nicht weiter aus, wenn man stirbt (
+
+    )
+    Ihr verliert beim Tod kein Geld (Sen) oder Erfahrung mehr
+    Ihr könnt die Menge der Geisterembleme erhöhen, die ihr tragen dürft
+    Ihr dürft die Geschwindigkeit des Spiels erhöhen oder verringern
+    Ihr dürft die Geschwindigkeit der Spielfigur erhöhen oder verringern
+
+Wollt ihr einen kompletten Easy Mode, stellt ihr also einfach alles auf aktiviert. Alternativ könnt ihr beispielsweise nur eure Geschwindigkeit für einen bestimmten Boss erhöhen und seine wiederum verringern, um euch den Kampf zu erleichtern. Die Funktionen lassen sich mitten im Spiel abstellen, ein Neustart ist nicht erforderlich.
+
+Damit ist im Easy Mode übrigens auch ein Hard Mode integriert. Wenn ihr den Spieß umdrehen wollt, könnt ihr euch verlangsamen und die Spielwelt beschleunigen

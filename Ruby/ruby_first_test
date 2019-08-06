@@ -1,0 +1,8 @@
+rnd_number = rand(100)
+input = -1
+
+puts "guess a number between 1 and 100"
+while input != rnd_number
+    input = gets.to_i
+end
+puts "You are correct! The number was " + rnd_number.to_s
