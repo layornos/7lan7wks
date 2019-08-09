@@ -31,13 +31,13 @@ def checkBoard(board : Array[Array[Int]]) : Boolean = {
 }
 
 board = Array(Array(1,1,1), Array(0,0,0), Array(0,0,0))
-println(checkBoard(board))
+checkBoard(board)
 
 board = Array(Array(2,1,1), Array(2,0,0), Array(2,0,0))
-println(checkBoard(board))
+checkBoard(board)
 
 board = Array(Array(2,1,1), Array(0,2,0), Array(0,0,2))
-println(checkBoard(board))
+checkBoard(board)
 
 board = Array(Array(1,1,2), Array(0,2,0), Array(2,0,0))
-println(checkBoard(board))
+checkBoard(board)
