@@ -30,14 +30,18 @@ def checkBoard(board : Array[Array[Int]]) : Boolean = {
     return checkRows(board) || checkCols(board) || checkDiags(board)
 }
 
+// Row Test
 board = Array(Array(1,1,1), Array(0,0,0), Array(0,0,0))
-checkBoard(board)
+println(checkBoard(board))
 
+// Column Test
 board = Array(Array(2,1,1), Array(2,0,0), Array(2,0,0))
-checkBoard(board)
+println(checkBoard(board))
 
+// Diagonal Test left to right
 board = Array(Array(2,1,1), Array(0,2,0), Array(0,0,2))
-checkBoard(board)
+println(checkBoard(board))
 
+// Diagonal Test right to left
 board = Array(Array(1,1,2), Array(0,2,0), Array(2,0,0))
-checkBoard(board)
+println(checkBoard(board))
