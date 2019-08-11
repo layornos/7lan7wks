@@ -36,15 +36,33 @@ def checkDiagsLtoR(board : Array[Array[Char]]) : Char = {
     return ' '
 }
 
-def checkBoard(board : Array[Array[Char]]) = {
+def isWinner(board : Array[Array[Char]]) : (Boolean, Char) = {
+    var winState = false
+    var winner = ' '
     var resultRows = checkRows(board)
     var resultCols = checkCols(board)
     var resultRtoL = checkDiagsRtoL(board)
     var resultLtoR = checkDiagsLtoR(board)
     if (resultCols != ' ' || resultRows != ' ' || resultRtoL != ' ' || resultLtoR != ' '){
-        println("We have a winner!")
+        winState = true
     } else {
-        println("No winner!")
+        winState = false
+    }
+
+    if (resultRows != ' ') winner = resultRows
+    if (resultCols != ' ') winner = resultCols
+    if (resultRtoL != ' ') winner = resultRtoL
+    if (resultLtoR != ' ') winner = resultLtoR
+
+    return (winState, winner)
+}
+
+def checkBoard(board : Array[Array[Char]]) = {
+    var result = isWinner(board)
+    if(result._1){
+        println("We have a winner: " + result._2)
+    } else {
+        println("No winner.")
     }
 }
 // Winner Tests
