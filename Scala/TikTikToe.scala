@@ -1,3 +1,5 @@
+import scala.io.StdIn.readLine
+
 var board = Array.ofDim[Char](3,3)
 
 def checkRowCol(c1: Char, c2: Char, c3: Char) : Boolean = {
@@ -57,45 +59,71 @@ def isWinner(board : Array[Array[Char]]) : (Boolean, Char) = {
     return (winState, winner)
 }
 
-def checkBoard(board : Array[Array[Char]]) = {
+def checkBoard(board : Array[Array[Char]]) : Boolean = {
     var result = isWinner(board)
     if(result._1){
-        println("We have a winner: " + result._2)
+        //println("We have a winner: " + result._2)
+        return true
     } else {
-        println("No winner.")
+        //println("No winner.")
+        return false
     }
 }
-// Winner Tests
-// Row Test
-board = Array(Array('X','X','X'), Array(' ',' ',' '), Array(' ',' ',' '))
-checkBoard(board)
 
-// Column Test
-board = Array(Array('O','X','X'), Array('O',' ',' '), Array('O',' ',' '))
-checkBoard(board)
+def boardTests() = {
+    println("Running some test before you can play.")
+    // Winner Tests
+    // Row Test
+    board = Array(Array('X','X','X'), Array(' ',' ',' '), Array(' ',' ',' '))
+    assert(checkBoard(board) == true)
 
-// Diagonal Test left to right
-board = Array(Array('O','X','X'), Array(' ','O',' '), Array(' ',' ','O'))
-checkBoard(board)
+    // Column Test
+    board = Array(Array('O','X','X'), Array('O',' ',' '), Array('O',' ',' '))
+    assert(checkBoard(board) == true)
 
-// Diagonal Test right to left
-board = Array(Array('O','O','X'), Array(' ','X',' '), Array('X',' ',' '))
-checkBoard(board)
+    // Diagonal Test left to right
+    board = Array(Array('O','X','X'), Array(' ','O',' '), Array(' ',' ','O'))
+    assert(checkBoard(board) == true)
+
+    // Diagonal Test right to left
+    board = Array(Array('O','O','X'), Array(' ','X',' '), Array('X',' ',' '))
+    assert(checkBoard(board) == true)
 
 
-// No Winner Tests
-// Row Test
-board = Array(Array('O','X','X'), Array(' ',' ',' '), Array(' ',' ',' '))
-checkBoard(board)
+    // No Winner Tests
+    // Row Test
+    board = Array(Array('O','X','X'), Array(' ',' ',' '), Array(' ',' ',' '))
+    assert(checkBoard(board) == false)
 
-// Column Test
-board = Array(Array('O','X','X'), Array('X',' ',' '), Array('O',' ',' '))
-checkBoard(board)
+    // Column Test
+    board = Array(Array('O','X','X'), Array('X',' ',' '), Array('O',' ',' '))
+    assert(checkBoard(board) == false)
 
-// Diagonal Test left to right
-board = Array(Array('X',' ','X'), Array(' ','O',' '), Array(' ',' ','O'))
-checkBoard(board)
+    // Diagonal Test left to right
+    board = Array(Array('X',' ','X'), Array(' ','O',' '), Array(' ',' ','O'))
+    assert(checkBoard(board) == false)
 
-// Diagonal Test right to left
-board = Array(Array('O',' ','O'), Array(' ','X',' '), Array('X',' ',' '))
-checkBoard(board)
+    // Diagonal Test right to left
+    board = Array(Array('O',' ','O'), Array(' ','X',' '), Array('X',' ',' '))
+    assert(checkBoard(board) == false)
+}
+
+
+def coreGameLoop() = {
+    var input = readLine()
+//    while(true){
+//        input = readInt("Whats do you want to do? ")
+//    }
+}
+
+boardTests()
+coreGameLoop()
+
+
+
+
+
+
+
+
+
